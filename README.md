@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# FaceTouch Recognition App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![App Logo](app_logo.png)
 
-## Available Scripts
+The FaceTouch Recognition App is an application designed to detect and recognize instances when a hand touches the face. The app utilizes advanced computer vision techniques to analyze live video streams or pre-recorded videos and identify instances of hand-to-face contact.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Real-time Detection:** The app is capable of analyzing video streams in real-time, enabling instantaneous detection of hand-to-face interactions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Frame Analysis:** Each frame of the video is analyzed independently to identify instances of hand contact with the face. This ensures accurate recognition even in dynamic environments.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Multi-Platform Support:** The app is developed to run on multiple platforms, including Windows, macOS, iOS, and Android. This ensures accessibility and usability across a wide range of devices.
 
-### `npm test`
+4. **Configurable Sensitivity:** Users have the ability to adjust the sensitivity of the detection algorithm according to their preferences. This flexibility allows for customization based on individual requirements.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Privacy Protection:** The app prioritizes user privacy by processing the video locally on the device. No data is sent to external servers, ensuring that sensitive information remains secure.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To install and use the FaceTouch Recognition App, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository: `git clone https://github.com/Nhathuy1305/Hand-touching-face-recognition-app.git`
+2. Install the required dependencies using package manager X: `npm install`
+3. Configure the app settings according to your preferences (e.g., sensitivity, camera source).
+4. Build the app for your target platform: `npm run build`
+5. Launch the app: `npm run start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. Launch the FaceTouch Recognition App on your device.
+2. Grant necessary permissions for the app to access the camera.
+3. Select the desired video source (camera or pre-recorded video file).
+4. Adjust the sensitivity settings as per your requirements.
+5. Start the video analysis by clicking the "Start" button.
+6. Monitor the app's interface for notifications and alerts whenever a hand touches the face.
+7. Review the recorded instances of hand-to-face contact in the app's log or export the results for further analysis.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions to the FaceTouch Recognition App are welcome! If you'd like to contribute, please follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b my-new-feature`
+3. Make your changes and ensure that the app is still functioning correctly.
+4. Commit your changes: `git commit -am 'Add new feature'`
+5. Push the branch to your forked repository: `git push origin my-new-feature`
+6. Open a pull request, providing a detailed description of the changes made.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+The FaceTouch Recognition App is released under the [MIT License](LICENSE).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have any questions, suggestions, or feedback regarding the FaceTouch Recognition App, please contact us at dnhuy.ityu@gmail.com. We appreciate your input and will respond as soon as possible.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Visit my website at [https://www.facebook.com/nhhuy.135/](https://www.facebook.com/nhhuy.135/) for more information and updates on the app.
