@@ -1,7 +1,5 @@
 # FaceTouch Recognition App
 
-![App Logo](app_logo.png)
-
 The FaceTouch Recognition App is an application designed to detect and recognize instances when a hand touches the face. The app utilizes advanced computer vision techniques to analyze live video streams or pre-recorded videos and identify instances of hand-to-face contact.
 
 ## Features
